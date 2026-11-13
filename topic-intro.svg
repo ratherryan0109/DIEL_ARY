@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="introTitle">
+  <title id="introTitle">A parallel plate capacitor with a dielectric slab, field lines and bound charges</title>
+  <defs>
+    <linearGradient id="intro-bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F5FF"/>
+      <stop offset="1" stop-color="#ECE5FF"/>
+    </linearGradient>
+    <linearGradient id="intro-slab" x1="190" y1="160" x2="610" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9FFF5"/>
+      <stop offset="1" stop-color="#2BC7B5"/>
+    </linearGradient>
+    <linearGradient id="intro-plate" x1="150" y1="0" x2="650" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B6CF6"/>
+      <stop offset="1" stop-color="#4B2FC9"/>
+    </linearGradient>
+    <pattern id="intro-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#6C4DE6" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="intro-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#4B2FC9" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="28" fill="url(#intro-bg)"/>
+  <rect width="800" height="500" rx="28" fill="url(#intro-grid)"/>
+
+  <g filter="url(#intro-shadow)">
+    <rect x="150" y="92" width="500" height="20" rx="10" fill="url(#intro-plate)"/>
+    <rect x="190" y="156" width="420" height="190" rx="20" fill="url(#intro-slab)" opacity=".9"/>
+    <rect x="190" y="156" width="420" height="190" rx="20" fill="none" stroke="#0E8E82" stroke-opacity=".35" stroke-width="2"/>
+    <rect x="150" y="388" width="500" height="20" rx="10" fill="url(#intro-plate)"/>
+  </g>
+
+  <g stroke="#7A68FF" stroke-width="2.2" stroke-dasharray="7 9" opacity=".65" fill="none">
+    <path d="M230 126v248"/>
+    <path d="M320 126v248"/>
+    <path d="M410 126v248"/>
+    <path d="M500 126v248"/>
+    <path d="M590 126v248"/>
+  </g>
+  <g fill="#7A68FF" opacity=".72">
+    <path d="M226 360l4 13 4-13z"/>
+    <path d="M316 360l4 13 4-13z"/>
+    <path d="M406 360l4 13 4-13z"/>
+    <path d="M496 360l4 13 4-13z"/>
+    <path d="M586 360l4 13 4-13z"/>
+  </g>
+
+  <g fill="#FFFFFF" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700">
+    <text x="194" y="108">+</text><text x="282" y="108">+</text><text x="370" y="108">+</text><text x="458" y="108">+</text><text x="546" y="108">+</text><text x="614" y="108">+</text>
+    <text x="194" y="405">−</text><text x="282" y="405">−</text><text x="370" y="405">−</text><text x="458" y="405">−</text><text x="546" y="405">−</text><text x="614" y="405">−</text>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif">
+    <g fill="#6C4DE6">
+      <circle cx="230" cy="170" r="10"/><circle cx="320" cy="170" r="10"/><circle cx="410" cy="170" r="10"/><circle cx="500" cy="170" r="10"/><circle cx="590" cy="170" r="10"/>
+      <circle cx="230" cy="332" r="10"/><circle cx="320" cy="332" r="10"/><circle cx="410" cy="332" r="10"/><circle cx="500" cy="332" r="10"/><circle cx="590" cy="332" r="10"/>
+    </g>
+    <g fill="#FFFFFF" font-size="15" font-weight="700" text-anchor="middle">
+      <text x="230" y="175">−</text><text x="320" y="175">−</text><text x="410" y="175">−</text><text x="500" y="175">−</text><text x="590" y="175">−</text>
+      <text x="230" y="337">+</text><text x="320" y="337">+</text><text x="410" y="337">+</text><text x="500" y="337">+</text><text x="590" y="337">+</text>
+    </g>
+  </g>
+
+  <g opacity=".88">
+    <g transform="translate(350 222) rotate(-16)">
+      <circle cx="-14" cy="0" r="11" fill="#FFF0BF"/>
+      <circle cx="14" cy="0" r="8" fill="#0B6C64"/>
+      <path d="M-3 0h6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(455 222) rotate(22)">
+      <circle cx="-14" cy="0" r="11" fill="#FFF0BF"/>
+      <circle cx="14" cy="0" r="8" fill="#0B6C64"/>
+      <path d="M-3 0h6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(350 284) rotate(12)">
+      <circle cx="-14" cy="0" r="11" fill="#FFF0BF"/>
+      <circle cx="14" cy="0" r="8" fill="#0B6C64"/>
+      <path d="M-3 0h6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(455 284) rotate(-26)">
+      <circle cx="-14" cy="0" r="11" fill="#FFF0BF"/>
+      <circle cx="14" cy="0" r="8" fill="#0B6C64"/>
+      <path d="M-3 0h6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif">
+    <text x="400" y="76" fill="#4B2FC9" font-size="20" font-weight="700" text-anchor="middle">Conducting plate (+Q)</text>
+    <g>
+      <path d="M116 250h28" stroke="#0E8E82" stroke-width="2" stroke-linecap="round"/>
+      <text x="152" y="256" fill="#0B6C64" font-size="20" font-weight="700">Dielectric (εr &gt; 1)</text>
+    </g>
+    <text x="400" y="440" fill="#4B2FC9" font-size="20" font-weight="700" text-anchor="middle">Conducting plate (−Q)</text>
+  </g>
+
+  <g transform="translate(628 410)">
+    <rect width="140" height="56" rx="14" fill="#FFFFFF" opacity=".85" stroke="#D9D0F8"/>
+    <text x="16" y="24" fill="#6F6A85" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" letter-spacing=".08em">BOUND CHARGE</text>
+    <text x="16" y="43" fill="#0B6C64" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">−σb / +σb</text>
+  </g>
+  <g transform="translate(96 410)">
+    <rect width="128" height="56" rx="14" fill="#FFFFFF" opacity=".85" stroke="#D9D0F8"/>
+    <text x="16" y="24" fill="#6F6A85" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" letter-spacing=".08em">FIELD</text>
+    <text x="16" y="43" fill="#6C4DE6" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">E = V / d</text>
+  </g>
+</svg>

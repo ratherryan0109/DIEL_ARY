@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="freqTitle">
+  <title id="freqTitle">How relative permittivity falls in steps and loss peaks as frequency increases</title>
+  <defs>
+    <linearGradient id="freq-bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F5FF"/>
+      <stop offset="1" stop-color="#EDE6FF"/>
+    </linearGradient>
+    <pattern id="freq-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#6C4DE6" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="freq-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4B2FC9" flood-opacity=".1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="28" fill="url(#freq-bg)"/>
+  <rect width="800" height="500" rx="28" fill="url(#freq-grid)"/>
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif">
+    <g filter="url(#freq-shadow)">
+      <rect x="52" y="46" width="696" height="336" rx="22" fill="#FFFFFF" opacity=".95" stroke="#E6DFFA"/>
+    </g>
+    <g transform="translate(106 322)">
+      <g stroke="#E9E4FA" stroke-width="1">
+        <path d="M0 0h594M0 -56h594M0 -112h594M0 -168h594M0 -224h594"/>
+        <path d="M0 0v-224M118 0v-224M236 0v-224M354 0v-224M472 0v-224M594 0v-224"/>
+      </g>
+      <path d="M0 0h600" stroke="#B9AFD8" stroke-width="2" stroke-linecap="round"/>
+      <path d="M0 0v-238" stroke="#B9AFD8" stroke-width="2" stroke-linecap="round"/>
+
+      <path d="M0 -206h100c18 0 20 0 26-7 8-9 14-19 20-27h92c18 0 20 0 26-7 8-9 14-19 20-27h92c18 0 20 0 26-7 8-9 14-19 20-27h92c18 0 20 0 26-7 8-9 14-19 20-27h60" fill="none" stroke="#6C4DE6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 -64c26 0 34 8 42 20 8 12 12 22 28 22 20 0 22-22 34-38 10-13 22-18 34-6 10 10 6 16 24 16 22 0 22-30 38-46 12-12 24-12 36 0 10 10 8 18 24 18 22 0 24-30 42-44 12-9 24-9 34 0 12 11 10 18 26 18 22 0 24-26 42-38 12-8 22-8 32 0 12 10 12 18 26 18 20 0 22-18 40-26" fill="none" stroke="#F2A93B" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 7" opacity=".95"/>
+
+      <g fill="#6F6A85" font-size="12">
+        <text x="-12" y="18">10⁰</text><text x="104" y="18">10³</text><text x="222" y="18">10⁶</text><text x="340" y="18">10⁹</text><text x="458" y="18">10¹²</text><text x="572" y="18">10¹⁵</text>
+      </g>
+      <text x="608" y="5" fill="#6F6A85" font-size="13" font-weight="700">log f (Hz)</text>
+      <text x="-18" y="-250" fill="#6F6A85" font-size="13" font-weight="700">εr</text>
+      <text x="604" y="-250" fill="#8A5A0A" font-size="13" font-weight="700">tan δ</text>
+
+      <g fill="#4B2FC9" font-size="12" font-weight="700">
+        <text x="2" y="-180">space charge</text>
+        <text x="126" y="-156">orientation</text>
+        <text x="246" y="-130">ionic</text>
+        <text x="366" y="-104">electronic</text>
+      </g>
+      <g fill="#8A5A0A" font-size="11" font-weight="700">
+        <text x="22" y="-72">loss peak</text>
+        <text x="290" y="-150">loss peak</text>
+      </g>
+    </g>
+    <g>
+      <line x1="82" y1="412" x2="118" y2="412" stroke="#6C4DE6" stroke-width="3" stroke-linecap="round"/>
+      <text x="128" y="417" fill="#6F6A85" font-size="14" font-weight="700">εr (steps down)</text>
+      <line x1="286" y1="412" x2="322" y2="412" stroke="#F2A93B" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+      <text x="332" y="417" fill="#6F6A85" font-size="14" font-weight="700">tan δ (peaks at relaxation)</text>
+      <text x="704" y="417" fill="#4B2FC9" font-size="14" font-weight="800" text-anchor="end">always report f and T</text>
+    </g>
+    <g filter="url(#freq-shadow)">
+      <rect x="98" y="436" width="604" height="38" rx="14" fill="#FFFFFF" stroke="#E6DFFA"/>
+      <text x="400" y="460" fill="#4B2FC9" font-size="15" font-weight="700" text-anchor="middle">slower mechanisms drop out first as frequency rises</text>
+    </g>
+  </g>
+</svg>

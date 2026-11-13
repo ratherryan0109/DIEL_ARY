@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">A glowing dielectric slab between two capacitor plates with electric field lines</title>
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="900" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C1345"/>
+      <stop offset=".62" stop-color="#35227F"/>
+      <stop offset="1" stop-color="#4B2FC9"/>
+    </linearGradient>
+    <radialGradient id="hero-glow" cx="0" cy="0" r="1" gradientTransform="translate(450 330) rotate(90) scale(300 220)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CF0" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#7C5CF0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hero-teal" cx="0" cy="0" r="1" gradientTransform="translate(450 310) rotate(90) scale(190 110)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CFFF0" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#18B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hero-slab" x1="270" y1="230" x2="630" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CFFF0"/>
+      <stop offset=".5" stop-color="#2BD0BC"/>
+      <stop offset="1" stop-color="#118F84"/>
+    </linearGradient>
+    <linearGradient id="hero-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFF4CD"/>
+      <stop offset="1" stop-color="#D9B75A"/>
+    </linearGradient>
+    <pattern id="hero-grid" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M45 0H0V45" fill="none" stroke="#FFFFFF" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="hero-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="hero-soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <rect width="900" height="620" rx="34" fill="url(#hero-bg)"/>
+  <rect width="900" height="620" rx="34" fill="url(#hero-grid)"/>
+  <ellipse cx="450" cy="330" rx="330" ry="215" fill="url(#hero-glow)" filter="url(#hero-blur)"/>
+  <ellipse cx="450" cy="315" rx="210" ry="125" fill="url(#hero-teal)" filter="url(#hero-soft)"/>
+
+  <g opacity=".28" fill="#FFFFFF">
+    <circle cx="120" cy="110" r="3"/>
+    <circle cx="172" cy="88" r="1.8"/>
+    <circle cx="770" cy="130" r="2.6"/>
+    <circle cx="820" cy="214" r="1.6"/>
+    <circle cx="108" cy="486" r="2"/>
+    <circle cx="800" cy="500" r="2.4"/>
+    <circle cx="690" cy="82" r="1.5"/>
+    <circle cx="230" cy="540" r="1.7"/>
+  </g>
+
+  <g stroke="#C8C0FF" stroke-width="2" stroke-dasharray="7 10" opacity=".45" fill="none">
+    <path d="M300 192v206"/>
+    <path d="M390 192v206"/>
+    <path d="M480 192v206"/>
+    <path d="M570 192v206"/>
+  </g>
+  <g fill="#C8C0FF" opacity=".5">
+    <path d="M296 358l4 12 4-12z"/>
+    <path d="M386 358l4 12 4-12z"/>
+    <path d="M476 358l4 12 4-12z"/>
+    <path d="M566 358l4 12 4-12z"/>
+  </g>
+
+  <rect x="214" y="160" width="472" height="24" rx="12" fill="url(#hero-plate)"/>
+  <rect x="214" y="436" width="472" height="24" rx="12" fill="url(#hero-plate)"/>
+  <rect x="214" y="160" width="472" height="6" rx="3" fill="#FFFFFF" opacity=".5"/>
+  <rect x="214" y="436" width="472" height="6" rx="3" fill="#FFFFFF" opacity=".5"/>
+
+  <rect x="272" y="234" width="356" height="152" rx="26" fill="url(#hero-slab)" opacity=".88"/>
+  <rect x="272" y="234" width="356" height="152" rx="26" fill="none" stroke="#C7FFF7" stroke-width="2" opacity=".8"/>
+  <rect x="292" y="250" width="316" height="120" rx="18" fill="#FFFFFF" opacity=".07"/>
+
+  <g opacity=".9">
+    <g transform="translate(330 286) rotate(-18)">
+      <circle cx="-9" cy="0" r="7" fill="#FFF4CD"/>
+      <circle cx="9" cy="0" r="5" fill="#0B6C64"/>
+      <path d="M-2 0h4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(408 318) rotate(28)">
+      <circle cx="-9" cy="0" r="7" fill="#FFF4CD"/>
+      <circle cx="9" cy="0" r="5" fill="#0B6C64"/>
+      <path d="M-2 0h4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(486 280) rotate(-34)">
+      <circle cx="-9" cy="0" r="7" fill="#FFF4CD"/>
+      <circle cx="9" cy="0" r="5" fill="#0B6C64"/>
+      <path d="M-2 0h4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(564 324) rotate(14)">
+      <circle cx="-9" cy="0" r="7" fill="#FFF4CD"/>
+      <circle cx="9" cy="0" r="5" fill="#0B6C64"/>
+      <path d="M-2 0h4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g fill="#FFF4CD" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" letter-spacing=".06em">
+    <text x="238" y="148">+Q</text>
+    <text x="626" y="148">+Q</text>
+    <text x="238" y="494">−Q</text>
+    <text x="626" y="494">−Q</text>
+  </g>
+
+  <g transform="translate(646 255)">
+    <rect width="156" height="52" rx="14" fill="#FFFFFF" opacity=".09" stroke="#FFFFFF" stroke-opacity=".18"/>
+    <text x="18" y="23" fill="#C7FFF7" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" letter-spacing=".12em">DIELECTRIC</text>
+    <text x="18" y="42" fill="#FFFFFF" opacity=".78" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14">stores charge</text>
+  </g>
+  <g transform="translate(96 258)">
+    <rect width="132" height="52" rx="14" fill="#FFFFFF" opacity=".09" stroke="#FFFFFF" stroke-opacity=".18"/>
+    <text x="18" y="23" fill="#FFF4CD" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" letter-spacing=".12em">E FIELD</text>
+    <text x="18" y="42" fill="#FFFFFF" opacity=".78" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14">polarises</text>
+  </g>
+
+  <g opacity=".7">
+    <circle cx="450" cy="525" r="4" fill="#7CF5E3"/>
+    <circle cx="450" cy="525" r="16" fill="none" stroke="#7CF5E3" stroke-opacity=".35"/>
+    <circle cx="450" cy="525" r="28" fill="none" stroke="#7CF5E3" stroke-opacity=".15"/>
+  </g>
+</svg>

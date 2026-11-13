@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=100.0, user-scalable=no">
+<meta name="theme-color" content="#6C4DE6">
+<meta name="description" content="DIEL_ARY — an offline reference for dielectric materials, their properties and the physics behind them.">
+<title>DIEL_ARY · Dielectric Materials</title>
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="splash" aria-label="DIEL_ARY loading">
+  <img class="splash-logo" src="logo.svg" alt="">
+  <h1>DIEL_ARY</h1>
+  <p>Explore the science of dielectric materials.</p>
+  <div class="bar"><i></i></div>
+</div>
+
+<header id="topbar">
+  <button class="brand" onclick="go('home')" aria-label="DIEL_ARY — go to home">
+    <img src="logo.svg" alt="">
+    <span>DIEL_ARY</span>
+  </button>
+  <div class="topbar-actions">
+    <button id="themeToggle" class="icon-btn theme-toggle" onclick="toggleTheme()" aria-label="Switch to dark theme"></button>
+    <button class="icon-btn" onclick="toggleSettings()" aria-label="Toggle settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="3.2"/>
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main id="view"></main>
+<nav id="nav" aria-label="Primary navigation"></nav>
+<dialog id="topicDialog" class="topic-dialog" aria-labelledby="topicDialogTitle" onclick="if(event.target===this)this.close()">
+  <div id="topicDialogContent"></div>
+</dialog>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

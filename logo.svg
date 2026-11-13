@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="logo-bg" x1="8" y1="4" x2="88" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B6CF6"/>
+      <stop offset="1" stop-color="#4B2FC9"/>
+    </linearGradient>
+    <linearGradient id="logo-slab" x1="26" y1="0" x2="70" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7FFF7"/>
+      <stop offset=".5" stop-color="#59E6D1"/>
+      <stop offset="1" stop-color="#17B8A6"/>
+    </linearGradient>
+    <radialGradient id="logo-glow" cx="0" cy="0" r="1" gradientTransform="translate(48 48) rotate(90) scale(39)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7FFF7" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#C7FFF7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="logo-shadow" x="14" y="18" width="68" height="62" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <rect width="96" height="96" rx="26" fill="url(#logo-bg)"/>
+  <circle cx="48" cy="48" r="39" fill="url(#logo-glow)"/>
+
+  <rect x="22" y="23" width="52" height="7" rx="3.5" fill="#171044" opacity=".24" filter="url(#logo-shadow)"/>
+  <rect x="22" y="66" width="52" height="7" rx="3.5" fill="#171044" opacity=".24" filter="url(#logo-shadow)"/>
+  <rect x="22" y="22" width="52" height="7" rx="3.5" fill="#FFFDFE"/>
+  <rect x="22" y="67" width="52" height="7" rx="3.5" fill="#FFFDFE"/>
+
+  <rect x="28" y="35" width="40" height="26" rx="9" fill="url(#logo-slab)"/>
+  <rect x="28.75" y="35.75" width="38.5" height="24.5" rx="8.25" fill="none" stroke="#E8FFFC" stroke-opacity=".72" stroke-width="1.5"/>
+
+  <g stroke="#FFFFFF" stroke-linecap="round" stroke-width="1.5" opacity=".62">
+    <path d="M37 31v5m11-5v5m11-5v5"/>
+    <path d="M37 61v5m11-5v5m11-5v5"/>
+  </g>
+  <g stroke="#F7FFFE" stroke-width="1.35" stroke-linecap="round">
+    <path d="M37 43v6m11-9v6m11 3v6"/>
+    <path d="m34.5 46.5 2.5 2.5 2.5-2.5m6.5-3 2.5 2.5 2.5-2.5m6.5 8 2.5 2.5 2.5-2.5"/>
+  </g>
+  <g fill="#FFFDFE">
+    <circle cx="37" cy="41" r="2.1"/>
+    <circle cx="48" cy="38" r="2.1"/>
+    <circle cx="59" cy="47" r="2.1"/>
+  </g>
+  <g fill="#137F76">
+    <circle cx="37" cy="51" r="2.1"/>
+    <circle cx="48" cy="48" r="2.1"/>
+    <circle cx="59" cy="57" r="2.1"/>
+  </g>
+</svg>

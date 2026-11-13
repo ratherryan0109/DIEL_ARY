@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="polTitle">
+  <title id="polTitle">The four polarization mechanisms: electronic, ionic, orientation and space charge</title>
+  <defs>
+    <linearGradient id="pol-bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F5FF"/>
+      <stop offset="1" stop-color="#EEE7FF"/>
+    </linearGradient>
+    <pattern id="pol-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#6C4DE6" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="pol-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4B2FC9" flood-opacity=".1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="28" fill="url(#pol-bg)"/>
+  <rect width="800" height="500" rx="28" fill="url(#pol-grid)"/>
+
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif">
+    <!-- Electronic -->
+    <g filter="url(#pol-shadow)">
+      <rect x="36" y="46" width="350" height="190" rx="20" fill="#FFFFFF" opacity=".92" stroke="#E6DFFA"/>
+      <rect x="414" y="46" width="350" height="190" rx="20" fill="#FFFFFF" opacity=".92" stroke="#E6DFFA"/>
+      <rect x="36" y="264" width="350" height="190" rx="20" fill="#FFFFFF" opacity=".92" stroke="#E6DFFA"/>
+      <rect x="414" y="264" width="350" height="190" rx="20" fill="#FFFFFF" opacity=".92" stroke="#E6DFFA"/>
+    </g>
+
+    <g>
+      <text x="58" y="78" fill="#4B2FC9" font-size="19" font-weight="800">01 · Electronic</text>
+      <text x="58" y="100" fill="#6F6A85" font-size="14">Electron cloud shifts</text>
+      <g transform="translate(210 168)">
+        <circle cx="0" cy="0" r="22" fill="#F2A93B"/>
+        <text x="-7" y="7" fill="#FFFFFF" font-size="20" font-weight="800">+</text>
+        <ellipse cx="-18" cy="0" rx="42" ry="27" fill="#7A68FF" opacity=".3"/>
+        <ellipse cx="-18" cy="0" rx="42" ry="27" fill="none" stroke="#6C4DE6" stroke-width="1.5" opacity=".7"/>
+        <path d="M-70 0h-20" stroke="#6C4DE6" stroke-width="2" stroke-linecap="round"/>
+        <path d="M-90 0l8-5v10z" fill="#6C4DE6"/>
+        <path d="M42 0h20" stroke="#F2A93B" stroke-width="2" stroke-linecap="round"/>
+        <path d="M62 0l-8-5v10z" fill="#F2A93B"/>
+      </g>
+      <text x="58" y="214" fill="#0B6C64" font-size="14" font-weight="700">up to ~10¹⁵ Hz · optical</text>
+    </g>
+
+    <!-- Ionic -->
+    <g>
+      <text x="436" y="78" fill="#4B2FC9" font-size="19" font-weight="800">02 · Ionic</text>
+      <text x="436" y="100" fill="#6F6A85" font-size="14">Positive and negative ions shift</text>
+      <g transform="translate(530 138) scale(.78)">
+        <g fill="#6C4DE6" opacity=".95">
+          <circle cx="0" cy="0" r="15"/><circle cx="76" cy="0" r="15"/><circle cx="0" cy="66" r="15"/><circle cx="76" cy="66" r="15"/>
+        </g>
+        <g fill="#F2A93B" opacity=".95">
+          <circle cx="38" cy="0" r="12"/><circle cx="114" cy="0" r="12"/><circle cx="38" cy="66" r="12"/><circle cx="114" cy="66" r="12"/>
+        </g>
+        <g fill="#FFFFFF" font-size="14" font-weight="800" text-anchor="middle">
+          <text x="0" y="5">−</text><text x="76" y="5">−</text><text x="0" y="71">−</text><text x="76" y="71">−</text>
+          <text x="38" y="5">+</text><text x="114" y="5">+</text><text x="38" y="71">+</text><text x="114" y="71">+</text>
+        </g>
+        <path d="M-28 33h-24M148 33h24" stroke="#6C4DE6" stroke-width="2" stroke-linecap="round"/>
+        <path d="M-52 33l8-5v10zM172 33l-8-5v10z" fill="#6C4DE6"/>
+      </g>
+      <text x="436" y="214" fill="#0B6C64" font-size="14" font-weight="700">up to ~10¹³ Hz · infrared</text>
+    </g>
+
+    <!-- Orientation -->
+    <g>
+      <text x="58" y="296" fill="#4B2FC9" font-size="19" font-weight="800">03 · Orientation</text>
+      <text x="58" y="318" fill="#6F6A85" font-size="14">Permanent dipoles rotate to align</text>
+      <g transform="translate(84 352)">
+        <g opacity=".75">
+          <g transform="rotate(18 24 26)"><rect x="4" y="20" width="40" height="12" rx="6" fill="#7A68FF"/><circle cx="8" cy="26" r="6" fill="#F2A93B"/><circle cx="40" cy="26" r="6" fill="#0B6C64"/></g>
+          <g transform="rotate(-42 30 66)"><rect x="10" y="60" width="40" height="12" rx="6" fill="#7A68FF"/><circle cx="14" cy="66" r="6" fill="#F2A93B"/><circle cx="46" cy="66" r="6" fill="#0B6C64"/></g>
+          <g transform="rotate(64 96 28)"><rect x="76" y="22" width="40" height="12" rx="6" fill="#7A68FF"/><circle cx="80" cy="28" r="6" fill="#F2A93B"/><circle cx="112" cy="28" r="6" fill="#0B6C64"/></g>
+          <g transform="rotate(-12 92 72)"><rect x="72" y="66" width="40" height="12" rx="6" fill="#7A68FF"/><circle cx="76" cy="72" r="6" fill="#F2A93B"/><circle cx="108" cy="72" r="6" fill="#0B6C64"/></g>
+        </g>
+        <path d="M144 48h30" stroke="#4B2FC9" stroke-width="2" stroke-linecap="round"/>
+        <path d="M174 48l-8-5v10z" fill="#4B2FC9"/>
+        <g transform="translate(206 24)">
+          <g transform="translate(0 0)"><rect x="0" y="6" width="40" height="12" rx="6" fill="#7A68FF"/><circle cx="4" cy="12" r="6" fill="#F2A93B"/><circle cx="36" cy="12" r="6" fill="#0B6C64"/></g>
+          <g transform="translate(0 30)"><rect x="0" y="6" width="40" height="12" rx="6" fill="#7A68FF"/><circle cx="4" cy="12" r="6" fill="#F2A93B"/><circle cx="36" cy="12" r="6" fill="#0B6C64"/></g>
+          <g transform="translate(0 54)"><rect x="0" y="6" width="40" height="12" rx="6" fill="#7A68FF"/><circle cx="4" cy="12" r="6" fill="#F2A93B"/><circle cx="36" cy="12" r="6" fill="#0B6C64"/></g>
+          <path d="M52 6v64M52 6l-5 9h10zM52 70l-5-9h10z" stroke="#0B6C64" stroke-width="2" fill="#0B6C64" stroke-linecap="round"/>
+        </g>
+      </g>
+      <text x="58" y="436" fill="#0B6C64" font-size="14" font-weight="700">Hz–MHz · dipolar relaxation</text>
+    </g>
+
+    <!-- Space charge -->
+    <g>
+      <text x="436" y="296" fill="#4B2FC9" font-size="19" font-weight="800">04 · Space charge</text>
+      <text x="436" y="318" fill="#6F6A85" font-size="14">Charge piles up at interfaces</text>
+      <g transform="translate(470 336)">
+        <rect x="0" y="0" width="18" height="72" rx="5" fill="#4B2FC9"/>
+        <rect x="132" y="0" width="18" height="72" rx="5" fill="#4B2FC9"/>
+        <rect x="18" y="10" width="114" height="52" rx="12" fill="#E3F8F5" stroke="#2BC7B5" stroke-dasharray="6 6"/>
+        <g fill="#F2A93B"><circle cx="42" cy="28" r="8"/><circle cx="58" cy="44" r="8"/><circle cx="76" cy="24" r="8"/></g>
+        <g fill="#6C4DE6"><circle cx="100" cy="46" r="8"/><circle cx="116" cy="30" r="8"/></g>
+        <g fill="#FFFFFF" font-size="11" font-weight="800" text-anchor="middle">
+          <text x="42" y="32">+</text><text x="58" y="48">+</text><text x="76" y="28">+</text>
+          <text x="100" y="50">−</text><text x="116" y="34">−</text>
+        </g>
+      </g>
+      <text x="436" y="436" fill="#0B6C64" font-size="14" font-weight="700">lowest frequencies · Hz–kHz</text>
+    </g>
+  </g>
+</svg>
